@@ -17,7 +17,7 @@ return result;
 const result = reverseWord(userWord);
 console.log(result);
 
-if (reverseWord === userWord) {
+if (result === userWord) {
   console.log('La parola che hai inserito è palindroma');
 }
 
