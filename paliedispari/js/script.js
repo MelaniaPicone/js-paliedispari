@@ -35,4 +35,7 @@ function evenorOdd() {
 // chiamata della funzione
 evenorOdd();
 
+// vittoria o sconfitta
+
+
 
