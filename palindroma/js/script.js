@@ -6,10 +6,21 @@ console.log(userWord);
 function reverseWord(text) {
 let result = '';
 
-for(let i=text.lenght -1 ; i>=0; i--) {
- console.log(text[i]);
+for(let i=userWord.length -1 ; i>=0; i--) {
   result += text[i];
 }
 
+// restituisco la funzione fuori
 return result;
+}
+
+const result = reverseWord(userWord);
+console.log(result);
+
+if (reverseWord === userWord) {
+  console.log('La parola che hai inserito è palindroma');
+}
+
+else {
+  console.log('La parola che hai inserito non è palindroma')
 }
